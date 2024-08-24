@@ -4,7 +4,7 @@
 #include <QMainWindow>
 #include <QItemSelection>
 
-#include "CountryModel.h"
+#include "EmloyeeModel.h"
 
 namespace Ui {
 class MainWindow;
@@ -22,7 +22,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    CountryModel countryModel;
+    EmployeeModel countryModel;
 };
 
 #endif // MAINWINDOW_H

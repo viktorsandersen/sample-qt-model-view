@@ -33,7 +33,11 @@ void MainWindow::onSelectionChanged(const QItemSelection& selected, const QItemS
     QString countryName = index.data(Qt::DisplayRole).toString();
     ui->countryNameLabel->setText(countryName);
 
-    QString countryCapital = index.data(CountryModel::CapitalRole).toString();
+    QString countryCapital = index.data(EmployeeModel::Role).toString();
     ui->countryCapitalLabel->setText(countryCapital);
+
+    QString countryDate = index.data(EmployeeModel::Role+1).toString();
+    ui->countryEmploymentLabel->setText(countryDate);
+
 
 }
