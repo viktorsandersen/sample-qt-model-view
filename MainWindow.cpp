@@ -9,7 +9,7 @@ MainWindow::MainWindow(QWidget *parent) :
     countryModel()
 {
     ui->setupUi(this);
-    setWindowTitle("Model / View sample - countries");
+    setWindowTitle("Model / View sample - Employees");
 
     ui->countryListView->setModel(&countryModel);
 

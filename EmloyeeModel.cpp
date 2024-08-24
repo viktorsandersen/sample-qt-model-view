@@ -6,10 +6,10 @@ EmployeeModel::EmployeeModel(QObject* parent) :
     employees()
 {
     employees
-              << new Employee("Frank", "Noob", QDate(2020, 2, 5))
-              << new Employee("Fran", "Noob", QDate(2020, 2, 5))
-              << new Employee("Fra", "Noobs", QDate(2020, 2, 5))
-              << new Employee("Fr", "Noobs", QDate(2020, 2, 5));
+              << new Employee("Frank", "Programmer", QDate(2018, 5, 7))
+              << new Employee("John", "Robotics", QDate(2020, 2, 5))
+              << new Employee("Peter", "Finance", QDate(2021, 4, 6))
+              << new Employee("Erik", "Programmer", QDate(2020, 1, 5));
 }
 
 EmployeeModel::~EmployeeModel()
